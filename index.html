@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="enUS" lang="enUS">
 <head>
-<title>Bitcoin Paper Wallet Generator</title>
+<title>RubleBit Paper Wallet Generator</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <script type="text/javascript" src="jquery.min.js"></script>
@@ -10,13 +10,13 @@
 <body>
 <div id="body" style="width:700px;">
 	<div style="width:100%; text-align:center;">
-		<h2>Bitcoin Paper Wallet Generator</h2>
+		<h2>RubleBit Paper Wallet Generator</h2>
 	</div>
 	<div style="width:90%; margin-left:auto; margin-right:auto;">
 		<p>Front and back: <input id="checkbox" type="checkbox" onchange="swapImage();" checked /></p>
 	</div>
 	<div style="width:50%; float:left; text-align:center;">
-		<input id="bitcoinaddress" type="text" placeholder="Bitcoin Address" style="width:90%; margin: 0 auto;" />
+		<input id="bitcoinaddress" type="text" placeholder="RubleBit Address" style="width:90%; margin: 0 auto;" />
 	</div>
 	<div style="width:50%; float:right; text-align:center;">
 		<input id="privatekey" type="text" placeholder="Private Key" style="width:90%; margin: 0 auto;" />
@@ -68,7 +68,7 @@ function updateText () {
 }
 
 qrcode.makeCode("173Pw9aJUwhV77vtLwSDTzkWqbV7cfP6RE");
-qrcode2.makeCode("github.com/raptastics");
+qrcode2.makeCode("github.com/rublebit");
 
 $("#bitcoinaddress").
 	on("keyup", function (e) {
